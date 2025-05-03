@@ -1,0 +1,73 @@
+In an array elements are stored in contiguous memory location, size of the array cannot be changed (static).
+
+Wheras, the elements of the LinkedList are not stored in a contiguous memory location in the Heap Memory, size of the LinkedList can be changed (dynamic).
+
+Note: Heap Memory: Heap memory is a large area of memory that programs can use to store data. It's also known as dynamic memory. 
+
+
+1D linkedlist: stores only the next element address.
+2D linkedlist: stores both the next and previous elements address.
+
+LinkedList Traversal:
+
+1. Every element stores the address of the next element. (element, next_address)
+2. starting point of linkedlist is called head of the linkedlist. head = (memory location of first element(i.e, head)).
+3. The last element(is called tail of the linkedlist) stores nullptr.
+
+Adding a new element to the linkedlist:
+
+1. store the new element at a new memory location and store it's address at tail of the linkedlist earsing nullptr. The new element now becomes the tail of the linkedlist, and it points to nullptr.
+
+
+Applications of linkedlist: 
+1. Stack and Queue can be implemented by a linkedlist.
+2. In real life it is always used in a browser. (2D linked list)
+   Example: google.com<->youtube.com<->striverspage
+
+Datastructure used to create a linkedlist in c++:
+1. struct / class in c++
+
+Explanation: 
+1. int x = 2;   stores 2 at a memory location in the heap memory.
+2. int* y = &x; stores the pointer to the memory location of variable x in the heap memory at a new memory location.
+    (* - means pointer)
+
+Inorder to create a selfdefined data type in c++ we use struct.
+
+SelfDefined datatype:
+
+**********************************************************************************|
+struct Node{                                                                      |  
+    int data;                                                                     |  
+    Node* next;                                                                   |      
+                                                                                  |  
+    // inorder to initialise these values we need a constructor                   |  
+                                                                                  |  
+    Node(data1, next1);                                                           |  
+    {                                                                             |  
+        data = data1;                                                             |  
+        next = next1;                                                             |  
+    }                                                                             |  
+}                                                                                 |                                                                                 
+***********************************************************************************
+
+
+Node x = Node(2, nullptr)
+Node* y = &x;
+
+x is a variable of type Node
+y stores the pointer to the variable x.
+
+Or simply we can:
+
+Node* y = new Node(2, nullptr)   [new is a keyword]
+
+(Refer linked_list.cpp)
+Note: Struct doesb't offer OOPS(abstraction, encapsulation, inheritance) so in industry we use class.
+
+
+Memory used for Node (depends on the system):
+
+32-bit vs 64-bit
+1. In 32-bit, int takes 4 bytes + * takes 4 bytes = 8  bytes in total
+2. In 64-bit, int takes 4 bytes + * takes 8 bytes = 12 bytes in total

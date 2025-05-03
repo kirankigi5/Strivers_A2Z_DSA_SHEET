@@ -1,0 +1,8 @@
+1. Push the maximum to the last by adjacent swapping
+
+Time Complexity: O(N^2) [Worst complexity, Avg Complexity]
+
+Optimization: In each iteration of the outerloop define a variable which keeps track if any swap is going to happen in the inner loop.
+              After performing the innerloop loop if no swap has happened it means the array is already in sorted order, then exit the loop
+
+Best Case Time Complexity of Bubble Sort after optimization is O(N)

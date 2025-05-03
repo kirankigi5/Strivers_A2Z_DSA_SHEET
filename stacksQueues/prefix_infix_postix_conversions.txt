@@ -1,0 +1,12 @@
+Operations - ^, *, /, +, -
+
+Priority order: 
+
+^      - 3
+{*, /} - 2
+{+, -} - 1
+else   - -1
+
+Operands - {a-z}, {A-Z}, {0-9}
+
+In general we write infix expressions like: ((a + b) * (c - d) / (m ^ n))
