@@ -3,7 +3,7 @@
 > ### *"Those who cannot remember the past are condemned to repeat it."*
 > **- George Santayana**
 
-## Types of Dynamic Programming
+##  Types of Dynamic Programming
 
 1. **Memoization (Top-Down):**
     - Recursively solve subproblems
