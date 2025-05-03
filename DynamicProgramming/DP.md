@@ -28,17 +28,16 @@ public:
 When calculating $fib(5)$, see how many calculations are repeated:
 ```txt
                                 fib(5)
-                    ┌────────────┴──────────┐
-                  fib(4)                  fib(3)
-            ┌────────┴────────┐      ┌──────┴──────┐
-          fib(3)           fib(2)  fib(2)        fib(1)
-      ┌─────┴─────┐     ┌────┴────┐┌────┴────┐
-    fib(2)     fib(1) fib(1)  fib(0) fib(1) fib(0)
-┌────┴────┐
+                    ┌────────────┴─────────────────┐
+                  fib(4)                         fib(3)
+            ┌────────┴────────┐              ┌──────┴──────┐
+          fib(3)           fib(2)         fib(2)        fib(1)
+      ┌─────┴─────┐     ┌────┴────┐     ┌────┴────┐
+    fib(2)     fib(1) fib(1)  fib(0)   fib(1) fib(0)
+ ┌────┴────┐
 fib(1)  fib(0)
 ```
-[![Fibonacci Recursion](https://img.youtube.com/vi/mrPoy2-i32s/0.jpg)](https://www.youtube.com/watch?v=mrPoy2-i32s)
-*Video: Visual explanation of Fibonacci recursive calls*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mrPoy2-i32s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
