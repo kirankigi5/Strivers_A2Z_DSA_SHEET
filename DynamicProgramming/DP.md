@@ -3,68 +3,15 @@
 > ### *"Those who cannot remember the past are condemned to repeat it."*
 > ***- George Santayana***
 
-## Types of Dynamic Programming
+## Understanding the Need for DP
 
-1. **Memoization (Top-Down):**
-    - Recursively solve subproblems
-    - Store results in a cache/table
-    - Check cache before computation
-
-## Overlapping Subproblems in Fibonacci
-
-A classic example of overlapping subproblems is calculating Fibonacci numbers. The Fibonacci sequence is defined as:
+### Recursive Solution Problems
+Let's understand why we need DP using the Fibonacci sequence example:
 - $F(0) = 0$
 - $F(1) = 1$
 - $F(n) = F(n-1) + F(n-2)$ for $n > 1$
 
-### Example: $fib(5)$
-When calculating $fib(5)$, we need $fib(4)$ and $fib(3)$. To get $fib(4)$, we need $fib(3)$ and $fib(2)$, and so on. This creates a tree of recursive calls where many calculations are repeated:
-
-```cpp
-fib(5)
-├── fib(4)
-│   ├── fib(3)
-│   │   ├── fib(2)
-│   │   │   ├── fib(1)
-│   │   │   └── fib(0)
-│   │   └── fib(1)
-│   └── fib(2)
-│       ├── fib(1)
-│       └── fib(0)
-└── fib(3)
-    ├── fib(2)
-    │   ├── fib(1)
-    │   └── fib(0)
-    └── fib(1)
-```
-
-### Observations
-1. Notice how `fib(3)`, `fib(2)`, `fib(1)`, and `fib(0)` are calculated multiple times
-2. Without DP (Basic Recursion):
-   - Time Complexity: $O(2^n)$
-   - Each value recalculated multiple times
-
-### Solution Using DP
-1. **Memoization**: Store results in a cache (top-down)
-   - Calculate once, reuse many times
-   - Time Complexity reduced to $O(n)$
-
-2. **Tabulation**: Build results iteratively (bottom-up)
-   - Avoid recursion altogether
-   - Fill table from smallest to largest subproblem
-
-3. **Space Optimization**: Further improve memory usage
-    - Keep only necessary previous values
-    - Reduce space complexity to $O(1)$
-    - Perfect for problems with dependencies on just recent states
-
-> Note: Not all recursive problems have overlapping subproblems. For example, merge sort divides the array into distinct subarrays that don't overlap.
-
-## Example: Fibonacci Number
-
-Problem: Given `n`, calculate the nth Fibonacci number.
-
-### 0. Normal Recursion Approach
+#### Basic Recursive Approach
 ```cpp
 class Solution {
 public:
@@ -77,22 +24,42 @@ public:
 - Time: $O(2^n)$ - exponential due to repeated calculations
 - Space: $O(n)$ - recursion stack depth
 
-### 1. Memoization Approach
+#### The Problem: Overlapping Subproblems
+When calculating $fib(5)$, see how many calculations are repeated:
+<video width="100%" controls>
+    <source src="recursion.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+### Observations
+1. Notice how `fib(3)`, `fib(2)`, `fib(1)`, and `fib(0)` are calculated multiple times
+2. This leads to exponential time complexity $O(2^n)$
+3. We need a way to store and reuse these calculated values
+
+## Dynamic Programming Solutions
+
+### 1. Memoization (Top-Down)
+Store results in cache to avoid recalculation
 ```cpp
 class Solution {
-    unordered_map<int, int> memo;
+private:
+    int fibHelper(int n, vector<int>& memo) {
+        if (n <= 1) return n;
+        if (memo[n] != -1) return memo[n];
+        return memo[n] = fibHelper(n-1, memo) + fibHelper(n-2, memo);
+    }
 public:
     int fib(int n) {
-        if (n <= 1) return n;
-        if (memo.count(n)) return memo[n];
-        return memo[n] = fib(n-1) + fib(n-2);
+        vector<int> memo(n + 1, -1);
+        return fibHelper(n, memo);
     }
 };
 ```
 - Time: $O(n)$
 - Space: $O(n)$
 
-### 2. Tabulation Approach
+### 2. Tabulation (Bottom-Up)
+Build solution iteratively from smaller subproblems
 ```cpp
 class Solution {
 public:
@@ -109,7 +76,8 @@ public:
 - Time: $O(n)$
 - Space: $O(n)$
 
-### 3. Space-Optimized Approach
+### 3. Space Optimization
+Keep only necessary previous states
 ```cpp
 class Solution {
 public:
@@ -127,4 +95,6 @@ public:
 ```
 - Time: $O(n)$
 - Space: $O(1)$
+
+> Note: Not all recursive problems have overlapping subproblems. For example, merge sort divides the array into distinct subarrays that don't overlap.
 
