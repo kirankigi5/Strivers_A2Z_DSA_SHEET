@@ -26,10 +26,25 @@ public:
 
 #### The Problem: Overlapping Subproblems
 When calculating $fib(5)$, see how many calculations are repeated:
-<video width="100%" controls>
-    <source src="recursion.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+```txt
+                                fib(5)
+                    ┌────────────┴──────────┐
+                  fib(4)                  fib(3)
+            ┌────────┴────────┐      ┌──────┴──────┐
+          fib(3)           fib(2)  fib(2)        fib(1)
+      ┌─────┴─────┐     ┌────┴────┐┌────┴────┐
+    fib(2)     fib(1) fib(1)  fib(0) fib(1) fib(0)
+┌────┴────┐
+fib(1)  fib(0)
+```
+[![Fibonacci Recursion](https://img.youtube.com/vi/mrPoy2-i32s/0.jpg)](https://www.youtube.com/watch?v=mrPoy2-i32s)
+*Video: Visual explanation of Fibonacci recursive calls*
+
+
+
+- This recursive tree shows how `fib(2)` is calculated 3 times
+- `fib(1)` is calculated 5 times
+- `fib(0)` is calculated 3 times
 
 ### Observations
 1. Notice how `fib(3)`, `fib(2)`, `fib(1)`, and `fib(0)` are calculated multiple times
