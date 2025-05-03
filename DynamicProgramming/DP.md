@@ -1,7 +1,7 @@
 # Dynamic Programming
 
 > ### *"Those who cannot remember the past are condemned to repeat it."*
-> *- George Santayana*
+> **- George Santayana**
 
 ## Types of Dynamic Programming
 
