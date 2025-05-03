@@ -10,26 +10,16 @@
     - Store results in a cache/table
     - Check cache before computation
 
-2. **Tabulation (Bottom-Up):**
-    - Iteratively solve subproblems
-    - Fill results in a table
-    - Build solution from smallest to largest
+## Overlapping Subproblems in Fibonacci
 
-3. **Space-Optimized:**
-    - Optimize space complexity
-    - Usually modify tabulation
-    - Keep only necessary states
+A classic example of overlapping subproblems is calculating Fibonacci numbers. The Fibonacci sequence is defined as:
+- $F(0) = 0$
+- $F(1) = 1$
+- $F(n) = F(n-1) + F(n-2)$ for $n > 1$
 
-Each type has its own advantages:
-- Memoization: Easier to implement, naturally recursive
-- Tabulation: Better space complexity, no recursion overhead
-- Space-Optimized: Best memory usage, but can be complex
+### Example: $fib(5)$
+When calculating $fib(5)$, we need $fib(4)$ and $fib(3)$. To get $fib(4)$, we need $fib(3)$ and $fib(2)$, and so on. This creates a tree of recursive calls where many calculations are repeated:
 
-## Overlapping Subproblems
-
-Overlapping subproblems occur when a recursive algorithm visits the same subproblems multiple times. This is one of the key characteristics that makes a problem suitable for dynamic programming.
-
-### Example: Fibonacci Sequence
 ```cpp
 fib(5)
 ├── fib(4)
@@ -62,6 +52,11 @@ fib(5)
 2. **Tabulation**: Build results iteratively (bottom-up)
    - Avoid recursion altogether
    - Fill table from smallest to largest subproblem
+
+3. **Space Optimization**: Further improve memory usage
+    - Keep only necessary previous values
+    - Reduce space complexity to $O(1)$
+    - Perfect for problems with dependencies on just recent states
 
 > Note: Not all recursive problems have overlapping subproblems. For example, merge sort divides the array into distinct subarrays that don't overlap.
 
