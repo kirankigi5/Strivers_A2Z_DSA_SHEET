@@ -37,7 +37,6 @@ When calculating $fib(5)$, see how many calculations are repeated:
  ┌────┴────┐
 fib(1)  fib(0)
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mrPoy2-i32s?si=OfgNvFhi3kSq5xAh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 - This recursive tree shows how `fib(2)` is calculated 3 times
