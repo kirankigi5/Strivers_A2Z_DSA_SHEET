@@ -110,3 +110,9 @@ public:
 
 > Note: Not all recursive problems have overlapping subproblems. For example, merge sort divides the array into distinct subarrays that don't overlap.
 
+## Problems
+
+| No. | Problem | Status | Solution |
+|-----|---------|--------|----------|
+| 1   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | $✅$ Solved | [Solution](https://leetcode.com/problems/climbing-stairs/solutions/6720608/striver-s-guide-to-climbing-stairs-4-dynamic-programming-approaches-explained/) |
+
