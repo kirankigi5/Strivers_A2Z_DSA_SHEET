@@ -1,5 +1,5 @@
 # Binary Search Trees
-- Prerequisite: [Binary Trees](../BinaryTrees/Trees.md)
+- Prerequisite: [Binary Trees](../BinaryTrees/README.md)
 ---
 ## Properties of BST
 - The key property of a Binary Search Tree is:
