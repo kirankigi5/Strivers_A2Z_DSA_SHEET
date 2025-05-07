@@ -6,3 +6,4 @@
 | [2. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | ✅ | [Solution](https://leetcode.com/problems/reverse-integer/solutions/6722836/reverse-integer-handle-overflow-with-care/) |
 | [3. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | ✅ | [Solution](https://leetcode.com/problems/palindrome-number/solutions/6722908/palindrome-number-without-strings-safe-reverse-overflow-check/) |
 | [4. GCD of Two Numbers](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1) | ✅ | [Solution](sols/4_GCD_OF_TWO_NUMBERS.md) |
+| [5. Armstrong Numbers](https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1) | ✅ | [Solution](sols/5_ARMSTRONG_NUMBERS.md) |
