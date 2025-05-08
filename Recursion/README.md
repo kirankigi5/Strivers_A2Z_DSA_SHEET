@@ -28,6 +28,19 @@ int main() {
 - Stack frame contains: local variables, parameters, return address
 - Memory is allocated in stack for each function call
 
+#### Stack Frame Visualization
+```
+Stack Growth
+│           │
+│  call n-2 │
+├───────────┤
+│  call n-1 │
+├───────────┤
+│  call n   │
+└───────────┘
+    ...
+```
+
 ### Stack Overflow
 ```cpp
 void countDown(int n) {
@@ -48,3 +61,62 @@ int main() {
   - Large local variables in recursive functions
 
 
+## Recursion Tree
+
+After understanding how recursive calls use stack space, visualizing the sequence of calls helps in:
+- Understanding the flow of execution
+- Tracking the values at each step
+- Identifying potential stack overflow situations
+
+A recursion tree visualizes the sequence of recursive calls and their return values:
+### Example: Factorial Function
+```cpp
+int factorial(int n) {
+    // Base case
+    if (n == 1) return 1;
+    
+    // Recursive case
+    return n * factorial(n - 1);
+}
+
+int main() {
+    int result = factorial(5); // Output: 120
+    return 0;
+}
+```
+
+```cpp
+fn(5) = 5 * fn(4)
+    |
+    ├── fn(4) = 4 * fn(3)
+    |           |
+    |           ├── fn(3) = 3 * fn(2)
+    |           |           |
+    |           |           ├── fn(2) = 2 * fn(1)
+    |           |           |           |
+    |           |           |           └── fn(1) = 1
+    |           |           └── Return: 2 * 1 = 2
+    |           └── Return: 3 * 2 = 6
+    └── Return: 4 * 6 = 24
+Return: 5 * 24 = 120
+```
+
+
+<div style="display: flex; justify-content: space-between;">
+<div>
+<img src="../Recursion/imgs/recursion_tree_1.png" width="400" height="400" alt="Recursion Tree 1"/>
+</div>
+<div>
+<img src="../Recursion/imgs/recursion_tree_2.png" width="400" height="400" alt="Recursion Tree 2"/>
+</div>
+</div>
+
+Each level represents:
+- Current function call
+- Calculation being performed
+- Return value propagating up
+
+This helps in:
+- Understanding execution flow
+- Analyzing time complexity
+- Debugging recursive algorithms
