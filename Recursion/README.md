@@ -84,6 +84,7 @@ int main() {
     return 0;
 }
 ```
+[Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/factorial5739/1)
 
 ```cpp
 fn(5) = 5 * fn(4)
@@ -125,6 +126,36 @@ This helps in:
 - Analyzing time complexity
 - Debugging recursive algorithms
 
+
+
+## Example Problems
+
+### Print 1 to N
+```cpp
+// Base case: Stop when n reaches target
+void print1toN(int n) {
+    if (n == 0) return;
+    print1toN(n - 1);    // Call first
+    cout << n << " ";    // Print after
+}
+```
+[View Solution](sol/1_TO_N.md) | [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops3621/1)
+
+### Print N to 1
+```cpp
+// Base case: Stop when n reaches 0
+void printNto1(int n) {
+    if (n == 0) return;
+    cout << n << " ";    // Print first
+    printNto1(n - 1);    // Call after
+}
+```
+[View Solution](sol/N_TO_1.md) | [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1)
+
+## 🔁 Pattern Recap
+
+* **Print 1 to N** 👉 Call first, print after ✅
+* **Print N to 1** 👉 Print first, call after ✅
 
 
 
