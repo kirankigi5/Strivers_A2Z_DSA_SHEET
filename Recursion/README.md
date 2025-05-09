@@ -158,4 +158,11 @@ void printNto1(int n) {
 * **Print N to 1** 👉 Print first, call after ✅
 
 
+### Practice Problems 📝
+
+| # | Problem | Solution | Status |
+|---|---------|----------|--------|
+| 1 | [Reverse an Array](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [View Solution](sol/reverse_array.md) | ✅ Solved |
+| 2 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [View Solution](https://leetcode.com/problems/valid-palindrome/solutions/6727233/recursive-palindrome-checker-ignore-non-alphanumerics-case-c/) | ✅ Solved |
+| 3 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) | [View Solution](https://leetcode.com/problems/fibonacci-number/solutions/6727265/simple-recursive-fibonacci-learn-recursi-3qha/) | ✅ Solved |
 
