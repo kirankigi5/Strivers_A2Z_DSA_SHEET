@@ -74,3 +74,8 @@ void insertionSort(vector<int>& arr) {
 }
 ```
 [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)
+
+## 📋 Upcoming Implementations
+> 🔗 See [Issue #X: Implement Advanced Sorting Algorithms](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/X)
+- [ ] Merge Sort
+- [ ] Quick Sort
