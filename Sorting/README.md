@@ -76,6 +76,12 @@ void insertionSort(vector<int>& arr) {
 [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)
 
 ## 📋 Upcoming Implementations
-> 🔗 See [Issue #X: Implement Advanced Sorting Algorithms](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/X)
+> 🔗 See [Issue #1: Implement Advanced Sorting Algorithms](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/1)
 - [ ] Merge Sort
 - [ ] Quick Sort
+
+## 💻 Problems & Solutions
+
+| Problem | Status | Solution |
+|---------|---------|-----------|
+| [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅ Solved | [View Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
