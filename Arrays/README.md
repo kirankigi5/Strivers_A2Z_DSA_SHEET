@@ -86,3 +86,7 @@ public:
 ### 🔗 Links
 - [GeeksForGeeks Problem](https://www.geeksforgeeks.org/problems/second-largest3735/1)
 
+### 🔄 Optimization
+> 🔗 See [Issue #X: Add One-Pass Solution for Second Largest Element](github-issue-link)
+- [ ] Implement single-pass approach
+- [ ] Compare time complexity
