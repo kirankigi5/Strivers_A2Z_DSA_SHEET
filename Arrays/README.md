@@ -100,3 +100,4 @@ public:
 | 1 | [Find Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | Easy | $✅$ Solved | Above |
 | 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | Easy | $✅$ Solved | Above |
 | 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
+| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | ❌ Unsolved | - |
