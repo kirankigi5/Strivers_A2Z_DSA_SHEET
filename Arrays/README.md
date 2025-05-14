@@ -90,3 +90,13 @@ public:
 > 🔗 See [Issue #2: Add One-Pass Solution for Second Largest Element](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/2)
 - [ ] Implement single-pass approach
 - [ ] Compare time complexity
+
+// ...existing code...
+
+## 📋 Problems Table
+
+| No. | Problem | Difficulty | Status | Solution |
+|-----|---------|------------|--------|-----------|
+| 1 | [Find Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | Easy | $✅$ Solved | Above |
+| 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | Easy | $✅$ Solved | Above |
+| 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
