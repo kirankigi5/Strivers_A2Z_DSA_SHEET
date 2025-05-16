@@ -126,8 +126,7 @@ public:
 |--------|----------|----------|
 | Time Complexity | $O(n)$ (2 passes) | $O(n)$ (1 pass) |
 | Array Traversals | 2 | 1 |
-| Code Complexity | Simple | Moderate |
-| Cache Performance | Lower | Better |
+
 
 > 🎯 The one-pass solution is more efficient as it requires only a single traversal of the array.
 
