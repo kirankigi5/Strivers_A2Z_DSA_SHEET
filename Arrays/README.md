@@ -142,3 +142,5 @@ public:
 | 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/move-zeroes/solutions/6749908/move-zeroes-two-pointer-swap-approach-by-s5im/) |
 | 7 | [Union Of Sorted Arrays](https://www.codechef.com/practice/course/tcs-nqt-questions/TCSNQTC/problems/TCSNQTCP08) | Easy | ✅ Solved | [Solution](../Arrays/sols/7_union_of_sorted_arrays.md) |
 | 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
+| 9 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/max-consecutive-ones/solutions/6750207/max-1s-in-a-row-fast-clean-solution-by-k-3u3y/) |
+| 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
