@@ -86,12 +86,50 @@ public:
 ### 🔗 Links
 - [GeeksForGeeks Problem](https://www.geeksforgeeks.org/problems/second-largest3735/1)
 
-### 🔄 Optimization
-> 🔗 See [Issue #2: Add One-Pass Solution for Second Largest Element](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/2)
-- [ ] Implement single-pass approach
-- [ ] Compare time complexity
 
-// ...existing code...
+### 🚀 Optimized Approach (One-Pass Solution)
+1. Initialize `largest` with first element and `second_largest` with INT_MIN ➡️
+2. For each element starting from index 1:
+   - If current > largest: Update both largest and second_largest ⬆️
+   - If current < largest but > second_largest: Update second_largest 📈
+3. Handle edge case (no second largest exists) ⚠️
+
+### 💻 Optimized Solution
+```cpp
+class Solution {
+public:
+    int getSecondLargest(vector<int> &arr) {
+        int largest = arr[0];           // 📊 Start with first element
+        int second_largest = INT_MIN;    // 📉 Initialize second largest
+        
+        for(int i = 1; i < arr.size(); i++) {
+            if(arr[i] > largest) {       // 📈 Found new largest
+                second_largest = largest; // 🔄 Current largest becomes second
+                largest = arr[i];         // ⬆️ Update largest
+            }
+            else if(arr[i] < largest && arr[i] > second_largest) {
+                second_largest = arr[i];  // 📈 Update second largest
+            }
+        }
+        
+        return second_largest == INT_MIN ? -1 : second_largest;  // ✅ Return result
+    }
+};
+```
+
+### ⚡ Optimized Complexity
+- Time Complexity: $O(n)$ ⏱️ (Single pass)
+- Space Complexity: $O(1)$ 💾
+
+### 📊 Comparison with Two-Pass
+| Aspect | Two-Pass | One-Pass |
+|--------|----------|----------|
+| Time Complexity | $O(n)$ (2 passes) | $O(n)$ (1 pass) |
+| Array Traversals | 2 | 1 |
+| Code Complexity | Simple | Moderate |
+| Cache Performance | Lower | Better |
+
+> 🎯 The one-pass solution is more efficient as it requires only a single traversal of the array.
 
 ## 📋 Problems Table
 
