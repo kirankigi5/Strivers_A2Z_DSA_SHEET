@@ -138,3 +138,4 @@ public:
 | 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | Easy | $✅$ Solved | Above |
 | 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
 | 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6749808/remove-duplicates-from-sorted-array-leetcode-26-clean-in-place-with-two-pointers/) |
+| 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Medium | ⏳ Unsolved | - |
