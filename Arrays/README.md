@@ -140,3 +140,4 @@ public:
 | 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6749808/remove-duplicates-from-sorted-array-leetcode-26-clean-in-place-with-two-pointers/) |
 | 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Medium | ⏳ Unsolved | - |
 | 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/move-zeroes/solutions/6749908/move-zeroes-two-pointer-swap-approach-by-s5im/) |
+| 7 | [Union Of Sorted Arrays](https://www.codechef.com/practice/course/tcs-nqt-questions/TCSNQTC/problems/TCSNQTCP08) | Easy | $✅$ Solved | [Solution](../Arrays/sols/7_union_of_sorted_arrays.md) |
