@@ -149,4 +149,5 @@ public:
 | 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ⏳ Unsolved | - |
 | 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
 | 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ⏳ Unsolved | - |
+| 16 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/6753347/best-time-to-buy-and-sell-stock-greedy-o-rz5h/) |
 
