@@ -146,3 +146,5 @@ public:
 | 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
 | 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | Medium | ⏳ Unsolved | - |
 | 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
+| 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | Medium | ⏳ Unsolved | - |
+| 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
