@@ -144,3 +144,5 @@ public:
 | 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
 | 9 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/max-consecutive-ones/solutions/6750207/max-1s-in-a-row-fast-clean-solution-by-k-3u3y/) |
 | 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
+| 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | Medium | ⏳ Unsolved | - |
+| 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
