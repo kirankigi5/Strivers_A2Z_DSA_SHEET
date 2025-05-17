@@ -132,19 +132,21 @@ public:
 
 ## 📋 Problems Table
 
-| No. | Problem | Difficulty | Status | Solution |
-|-----|---------|------------|--------|-----------|
-| 1 | [Find Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | Easy | $✅$ Solved | Above |
-| 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | Easy | $✅$ Solved | Above |
-| 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
-| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6749808/remove-duplicates-from-sorted-array-leetcode-26-clean-in-place-with-two-pointers/) |
-| 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Medium | ⏳ Unsolved | - |
-| 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/move-zeroes/solutions/6749908/move-zeroes-two-pointer-swap-approach-by-s5im/) |
-| 7 | [Union Of Sorted Arrays](https://www.codechef.com/practice/course/tcs-nqt-questions/TCSNQTC/problems/TCSNQTCP08) | Easy | ✅ Solved | [Solution](../Arrays/sols/7_union_of_sorted_arrays.md) |
-| 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
-| 9 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/max-consecutive-ones/solutions/6750207/max-1s-in-a-row-fast-clean-solution-by-k-3u3y/) |
-| 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
-| 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | Medium | ⏳ Unsolved | - |
-| 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
-| 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | Medium | ⏳ Unsolved | - |
-| 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
+| No. | Problem | Status | Solution |
+|-----|---------|--------|-----------|
+| 1 | [Find Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | $✅$ Solved | Above |
+| 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | $✅$ Solved | Above |
+| 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
+| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6749808/remove-duplicates-from-sorted-array-leetcode-26-clean-in-place-with-two-pointers/) |
+| 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | ⏳ Unsolved | - |
+| 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/move-zeroes/solutions/6749908/move-zeroes-two-pointer-swap-approach-by-s5im/) |
+| 7 | [Union Of Sorted Arrays](https://www.codechef.com/practice/course/tcs-nqt-questions/TCSNQTC/problems/TCSNQTCP08) | ✅ Solved | [Solution](../Arrays/sols/7_union_of_sorted_arrays.md) |
+| 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
+| 9 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/max-consecutive-ones/solutions/6750207/max-1s-in-a-row-fast-clean-solution-by-k-3u3y/) |
+| 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
+| 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | ⏳ Unsolved | - |
+| 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
+| 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ⏳ Unsolved | - |
+| 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
+| 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ⏳ Unsolved | - |
+
