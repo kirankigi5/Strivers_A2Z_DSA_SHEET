@@ -158,3 +158,4 @@ public:
 | 22 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rotate-image/solutions/6755365/inplace-rotate-image-90-degrees-clockwis-fkif/) |
 | 23 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | ⏳ Unsolved | - |
 | 24 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/subarray-sum-equals-k/solutions/6755785/leetcode-560-subarray-sum-equals-k-brute-niei/) |
+| 25 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | ⏳ Unsolved | - |
