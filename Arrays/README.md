@@ -155,3 +155,4 @@ public:
 | 19 | [Leaders in an Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1) | ✅ Solved| [solution](../Arrays/sols/19_leaders_in_array.md) |
 | 20 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | ⏳ Unsolved | - |
 | 21 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | ⏳ Unsolved | - |
+| 22 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rotate-image/solutions/6755365/inplace-rotate-image-90-degrees-clockwis-fkif/) |
