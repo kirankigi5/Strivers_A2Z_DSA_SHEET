@@ -151,4 +151,5 @@ public:
 | 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ⏳ Unsolved | - |
 | 16 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/6753347/best-time-to-buy-and-sell-stock-greedy-o-rz5h/) |
 | 17 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rearrange-array-elements-by-sign/solutions/6753497/alternate-positive-and-negative-numbers-xn6z1/) |
-
+| 18 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | ⏳ Unsolved | - |
+| 19 | [Leaders in an Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1) | ✅ Solved| [solution](../Arrays/sols/19_leaders_in_array.md) |
