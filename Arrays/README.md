@@ -153,3 +153,5 @@ public:
 | 17 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rearrange-array-elements-by-sign/solutions/6753497/alternate-positive-and-negative-numbers-xn6z1/) |
 | 18 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | ⏳ Unsolved | - |
 | 19 | [Leaders in an Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1) | ✅ Solved| [solution](../Arrays/sols/19_leaders_in_array.md) |
+| 20 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | ⏳ Unsolved | - |
+| 21 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | ⏳ Unsolved | - |
