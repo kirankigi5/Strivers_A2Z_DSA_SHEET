@@ -1,4 +1,4 @@
-# 🔍 Array Problems
+# 🔍 Array Problems 🔍
 
 ## 1. Find Largest Element
 
