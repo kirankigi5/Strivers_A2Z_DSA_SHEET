@@ -159,3 +159,4 @@ public:
 | 23 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | ⏳ Unsolved | - |
 | 24 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/subarray-sum-equals-k/solutions/6755785/leetcode-560-subarray-sum-equals-k-brute-niei/) |
 | 25 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | ⏳ Unsolved | - |
+| 26 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | ⏳ Unsolved | - |
