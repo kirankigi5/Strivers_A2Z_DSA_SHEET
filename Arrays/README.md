@@ -161,3 +161,5 @@ public:
 | 25 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | ⏳ Unsolved | - |
 | 26 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | ⏳ Unsolved | - |
 | 27 | [3Sum](https://leetcode.com/problems/3sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/3sum/solutions/6677515/3sum-zero-finder-c-beats-95-easy-to-understand/) |
+| 28 | [4Sum](https://leetcode.com/problems/4sum/description/) | ⏳ Unsolved | - |
+
