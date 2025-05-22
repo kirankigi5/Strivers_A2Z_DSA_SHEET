@@ -162,4 +162,5 @@ public:
 | 26 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | ⏳ Unsolved | - |
 | 27 | [3Sum](https://leetcode.com/problems/3sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/3sum/solutions/6677515/3sum-zero-finder-c-beats-95-easy-to-understand/) |
 | 28 | [4Sum](https://leetcode.com/problems/4sum/description/) | ⏳ Unsolved | - |
+| 29 | [Largest subarray with 0 sum](https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1) | ✅ Solved | [Solution](../Arrays/sols/29.md) |
 
