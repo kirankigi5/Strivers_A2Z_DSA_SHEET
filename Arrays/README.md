@@ -164,3 +164,4 @@ public:
 | 28 | [4Sum](https://leetcode.com/problems/4sum/description/) | ⏳ Unsolved | - |
 | 29 | [Largest subarray with 0 sum](https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1) | ✅ Solved | [Solution](../Arrays/sols/29.md) |
 | 30 | [Count Subarrays with Given XOR](https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1) | ✅ Solved | [Solution](../Arrays/sols/30.md) |
+| 31 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/merge-intervals/solutions/6769858/c-no-redundant-checks-on-log-n-explained-51i2/) |
