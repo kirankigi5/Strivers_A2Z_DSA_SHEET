@@ -165,3 +165,4 @@ public:
 | 29 | [Largest subarray with 0 sum](https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1) | ✅ Solved | [Solution](../Arrays/sols/29.md) |
 | 30 | [Count Subarrays with Given XOR](https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1) | ✅ Solved | [Solution](../Arrays/sols/30.md) |
 | 31 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/merge-intervals/solutions/6769858/c-no-redundant-checks-on-log-n-explained-51i2/) |
+| 32 | [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/merge-sorted-array/solutions/6772747/merge-sorted-array-in-place-from-the-end-hmk6/) |
