@@ -15,3 +15,5 @@
 | 11 | [Find Rotation Count](https://www.geeksforgeeks.org/problems/rotation4723/1) | ❌ Unsolved | |
 | 12 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | ❌ Unsolved | |
 | 13 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | ❌ Unsolved | |
+
+## BS on Answers
