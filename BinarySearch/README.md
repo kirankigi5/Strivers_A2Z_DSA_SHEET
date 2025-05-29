@@ -17,3 +17,6 @@
 | 13 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | ❌ Unsolved | |
 
 ## BS on Answers
+| No. | Problem | Status | Solution |
+|-----|---------|--------|-----------|
+| 1 | [Square root of a number](https://www.geeksforgeeks.org/problems/square-root/1) | ❌ Unsolved | |
