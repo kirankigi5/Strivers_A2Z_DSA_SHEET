@@ -147,7 +147,50 @@ class Solution {
 
 
 ## ⚡ Quick Sort 
+```cpp
+class Solution {
+public:
+    // 🚀 Quick Sort: Recursively sorts the array using the partition function
+    void quickSort(vector<int>& arr, int low, int high) {
+        if (low < high) {
+            // 🔪 Get pivot index after placing pivot in the correct position
+            int p_index = partition(arr, low, high);
 
+            // 🔁 Recursively sort elements before and after partition
+            quickSort(arr, low, p_index - 1);
+            quickSort(arr, p_index + 1, high);
+        }
+    }
+
+    // 📍 Partition Function: Uses the first element as pivot (Hoare's Partition Scheme)
+    int partition(vector<int>& arr, int low, int high) {
+        int pivot = arr[low];      // 🎯 Choose first element as pivot
+        int i = low + 1;           // 👉 Start from next element
+        int j = high;              // 👈 Start from the end
+
+        // 🔄 Continue until the two pointers cross
+        while (i <= j) {
+            // ➡️ Move `i` to the right as long as elements are ≤ pivot
+            while (i <= high && arr[i] <= pivot) i++;
+
+            // ⬅️ Move `j` to the left as long as elements are > pivot
+            while (j >= low && arr[j] > pivot) j--;
+
+            // 🔁 Swap elements out of place
+            if (i < j) {
+                swap(arr[i], arr[j]);
+            }
+        }
+
+        // 🔄 Put pivot in its correct sorted position
+        swap(arr[low], arr[j]);
+
+        // 📍 Return the pivot's final position
+        return j;
+    }
+};
+```
+[Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/quick-sort/1)
 
 ## 💻 Problems & Solutions
 
