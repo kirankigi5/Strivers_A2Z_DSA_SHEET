@@ -76,7 +76,74 @@ void insertionSort(vector<int>& arr) {
 [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)
 
 ## 🔄 Merge Sort
- 
+
+```cpp
+class Solution {
+  public:
+    // 🧩 Merge two sorted subarrays: arr[l..mid] and arr[mid+1..r]
+    void merge(vector<int>& arr, int l, int mid, int r)
+    {
+        int ptr1 = l;         // 🔍 Pointer for the left subarray
+        int ptr2 = mid + 1;   // 🔍 Pointer for the right subarray
+        
+        vector<int> dummy_array; // 🛠️ Temporary array to store merged result
+        
+        // 🔁 Merge the two subarrays in sorted order
+        while(ptr1 <= mid && ptr2 <= r)
+        {
+            if(arr[ptr1] < arr[ptr2])  // ✅ Left element is smaller
+            {
+                dummy_array.push_back(arr[ptr1]);
+                ptr1++;
+            }
+            else  // ✅ Right element is smaller or equal
+            {
+                dummy_array.push_back(arr[ptr2]);
+                ptr2++;
+            }
+        }
+        
+        // 🔄 Copy any remaining elements from the left subarray
+        while(ptr1 <= mid)
+        {
+            dummy_array.push_back(arr[ptr1]);
+            ptr1++;
+        }
+        
+        // 🔄 Copy any remaining elements from the right subarray
+        while(ptr2 <= r)
+        {
+            dummy_array.push_back(arr[ptr2]);
+            ptr2++;
+        }
+        
+        // 📥 Copy the merged elements back to the original array
+        for(int i = l; i <= r; i++)
+        {
+            arr[i] = dummy_array[i - l];
+        }
+    }
+  
+    // 🔄 Recursive merge sort function
+    void mergeSort(vector<int>& arr, int l, int r) {
+        // 🛑 Base case: if the array has 1 or no elements
+        if(l == r) return;
+        
+        int mid = l + (r - l) / 2;  // 🧠 Calculate the middle index
+        
+        // 🔁 Sort the left half
+        mergeSort(arr, l, mid);
+        
+        // 🔁 Sort the right half
+        mergeSort(arr, mid + 1, r);
+        
+        // 🧩 Merge the two sorted halves
+        merge(arr, l, mid, r);
+    }
+};
+```
+
+[Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/merge-sort/1)
 
 
 ## ⚡ Quick Sort 
