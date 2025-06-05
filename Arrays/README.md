@@ -144,7 +144,7 @@ public:
 | 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
 | 9 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/max-consecutive-ones/solutions/6750207/max-1s-in-a-row-fast-clean-solution-by-k-3u3y/) |
 | 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
-| 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | ⏳ Unsolved | - |
+| 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | ✅ Solved | [Solution](../Arrays/sols/11.md) |
 | 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
 | 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ⏳ Unsolved | - |
 | 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
