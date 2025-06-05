@@ -1,6 +1,0 @@
-Merge Sort: Divide and Merge
-
-youtube: https://www.youtube.com/watch?v=ogjf7ORKfd8
-
-Time Complexity: O(N log2 N) [In best, avg and worst case]
-Space Complexity: O(N) [in evey merge step they are taking some space for temp array in worst case it is of lenght N during last merge]

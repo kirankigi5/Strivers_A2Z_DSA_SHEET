@@ -1,5 +1,0 @@
-1. Always takes an element and places it in its correct position
-
-Time Complexity: O(N^2) [Worst and Avg Case]
-Best Case      : O(N)
-

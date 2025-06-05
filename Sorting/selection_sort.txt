@@ -1,2 +1,0 @@
-1. Select the minimums and swap.
-    Time Complexity: O(N^2)
