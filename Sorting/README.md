@@ -75,10 +75,11 @@ void insertionSort(vector<int>& arr) {
 ```
 [Practice on GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)
 
-## 📋 Upcoming Implementations
-> 🔗 See [Issue #1: Implement Advanced Sorting Algorithms](https://github.com/kirankigi5/Strivers_A2Z_DSA_SHEET/issues/1)
-- [ ] Merge Sort
-- [ ] Quick Sort
+## 🔄 Merge Sort
+ 
+
+
+## ⚡ Quick Sort 
 
 ## 💻 Problems & Solutions
 
