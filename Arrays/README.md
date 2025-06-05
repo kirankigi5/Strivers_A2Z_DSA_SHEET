@@ -138,7 +138,7 @@ public:
 | 2 | [Find Second Largest Element](https://www.geeksforgeeks.org/problems/second-largest3735/1) | $✅$ Solved | Above |
 | 3 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | $✅$ Solved | [Solution](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/6740168/1752-check-if-array-is-sorted-and-rotate-upf0/) |
 | 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6749808/remove-duplicates-from-sorted-array-leetcode-26-clean-in-place-with-two-pointers/) |
-| 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | ⏳ Unsolved | - |
+| 5 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rotate-array/solutions/6813465/ds-by-kigi-hy8n/) |
 | 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/move-zeroes/solutions/6749908/move-zeroes-two-pointer-swap-approach-by-s5im/) |
 | 7 | [Union Of Sorted Arrays](https://www.codechef.com/practice/course/tcs-nqt-questions/TCSNQTC/problems/TCSNQTCP08) | ✅ Solved | [Solution](../Arrays/sols/7_union_of_sorted_arrays.md) |
 | 8 | [Missing Number](https://leetcode.com/problems/missing-number/) | ✅ Solved | [Solution](https://leetcode.com/problems/missing-number/solutions/6750120/missing-number-using-sum-formula-o-n-time-o-1-space/) |
