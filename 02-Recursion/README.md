@@ -105,10 +105,10 @@ Return: 5 * 24 = 120
 
 <div style="display: flex; justify-content: space-between;">
 <div>
-<img src="imgs/recursion_tree_1.png"alt="Recursion Tree 1"/>
+<img src="imgs/recursion_tree_1.png" alt="Recursion Tree 1" width="50%"/>
 </div>
 <div>
-<img src="imgs/recursion_tree_2.png"  alt="Recursion Tree 2"/>
+<img src="imgs/recursion_tree_2.png" alt="Recursion Tree 2" width="50%"/>
 </div>
 </div>
 
