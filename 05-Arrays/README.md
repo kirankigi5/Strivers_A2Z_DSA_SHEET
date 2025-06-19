@@ -146,7 +146,7 @@ public:
 | 10 | [Single Number](https://leetcode.com/problems/single-number/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/single-number/solutions/6750234/unique-element-finder-with-bitwise-xor-t-qz9q/) |
 | 11 | [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | ✅ Solved | [Solution](../Arrays/sols/11.md) |
 | 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
-| 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ⏳ Unsolved (In progress) | - |
+| 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/sort-colors/solutions/6862024/leetcode-problem-75-sort-colors-dnf-by-k-2khp/) |
 | 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
 | 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ⏳ Unsolved | - |
 | 16 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/6753347/best-time-to-buy-and-sell-stock-greedy-o-rz5h/) |
