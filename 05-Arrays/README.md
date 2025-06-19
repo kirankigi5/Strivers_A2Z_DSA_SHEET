@@ -148,7 +148,7 @@ public:
 | 12 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/two-sum/solutions/6674442/c-solution-two-sum-with-sorting-two-pointers-beats-100/) |
 | 13 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/sort-colors/solutions/6862024/leetcode-problem-75-sort-colors-dnf-by-k-2khp/) |
 | 14 | [Majority Element](https://leetcode.com/problems/majority-element/) | ✅ Solved | [Solution](https://leetcode.com/problems/majority-element/solutions/6753170/title-boyer-moore-voting-algorithm-on-ti-vd7k/) |
-| 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ⏳ Unsolved | - |
+| 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/maximum-subarray/solutions/6862433/leetcode-53-maximum-subarray-by-kigi-pb31/) |
 | 16 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/6753347/best-time-to-buy-and-sell-stock-greedy-o-rz5h/) |
 | 17 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/) | ✅ Solved | [Solution](https://leetcode.com/problems/rearrange-array-elements-by-sign/solutions/6753497/alternate-positive-and-negative-numbers-xn6z1/) |
 | 18 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | ⏳ Unsolved | - |
